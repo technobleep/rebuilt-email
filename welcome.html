@@ -1,20 +1,24 @@
+
 <!DOCTYPE html>
 <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
      <head>
-          
+          <!--Help character display properly.-->
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-          
+          <!--Set the initial scale of the email.-->
           <meta name="viewport" content="width=device-width, initial-scale=1">
-          
+          <!--Force Outlook clients to render with a better MS engine.-->
           <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-          
+          <!--Help prevent blue links and autolinking-->
           <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
-          
+          <!--prevent Apple from reformatting and zooming messages.-->
           <meta name="x-apple-disable-message-reformatting">
-          
+
+          <!--target dark mode-->
           <meta name="color-scheme" content="light dark">
           <meta name="supported-color-schemes" content="light dark only">
-          
+
+          <!-- Allow for better image rendering on Windows hi-DPI displays. -->
           <!--[if mso]>
           <noscript>
           <xml>
@@ -25,14 +29,16 @@
           </xml>
           </noscript>
           <![endif]-->
-          
+
+          <!--to support dark mode meta tags-->
           <style type="text/css">
                :root {
                     color-scheme: light dark;
                     supported-color-schemes: light dark;
                }
           </style>
-          
+
+          <!--webfont code goes here-->
           <!--[if (gte mso 9)|(IE)]><!-->
           <!--webfont <link /> goes here-->
           <style>
@@ -42,6 +48,7 @@
               }
           </style>
           <!--<![endif]-->
+
           <style type="text/css">
                .body-fix {
                     height: 100% !important;
@@ -53,9 +60,11 @@
                     -webkit-font-smoothing: antialiased;
                     word-spacing: normal;
                }
+
                div[style*="margin:16px 0"] {
                     margin: 0 !important;
                }
+
                table, td {
                     border-collapse: collapse !important;
                     mso-table-lspace: 0pt;
@@ -63,6 +72,7 @@
                     -webkit-text-size-adjust: 100%;
                     -ms-text-size-adjust: 100%;
                }
+
                img {
                     border: 0;
                     line-height: 100%;
@@ -70,10 +80,12 @@
                     text-decoration: none;
                     display: block;
                }
+
                p, h1, h2, h3 {
                     padding: 0;
                     margin: 0 0 20px 0;
                }
+
                a[x-apple-data-detectors] {
                     color: inherit !important;
                     text-decoration: none !important;
@@ -82,6 +94,7 @@
                     font-weight: inherit !important;
                     line-height: inherit !important;
                }
+
                u+#body a {
                     color: inherit;
                     text-decoration: none;
@@ -90,6 +103,7 @@
                     font-weight: inherit;
                     line-height: inherit;
                }
+
                #MessageViewBody a {
                     color: inherit;
                     text-decoration: none;
@@ -98,15 +112,19 @@
                     font-weight: inherit;
                     line-height: inherit;
                }
+
                .link:hover { text-decoration: none !important; }
+
                .fadeimg {
                     transition: 0.3s !important;
                     opacity: 1 !important;
                }
+
                .fadeimg:hover {
                     transition: 0.3s !important;
                     opacity: 0.5 !important;
                }
+
                /* start CTA HOVER EFFECTS */
                .cta { transition: 0.3s !important; }
                .cta span { transition: 0.3s !important; }
@@ -118,22 +136,27 @@
                .cta:hover span { transition: 0.3s !important; }
                .cta-border:hover { border-bottom: 3px solid transparent !important; }
                /* end CTA HOVER EFFECTS */
+
                .mobile { display: none; }
+
                /* start rating stars effect */
                .star > a:hover, .star > a:hover ~ a { color: #26de81 !important; }
                /* end rating stars effect */
-               .footer-link a {color:#8B8B8B;}
           </style>
-          
+
+          <!--mobile styles-->
           <style>
           @media screen and (max-width:600px) {
                .w90p { width: 90% !important; }
                .w95p { width: 95% !important; padding:20px 20px 20px;}
                .w100p { width: 100% !important; }
+
                .mob-td {padding:24px 20px 10px 20px !important;}
                .imgFull { width: 100% !important; height: auto !important; }
+
                .desktop { width: 0 !important; display: none !important; }
                .mobile { display: block !important; }
+
                h1 { font-size: 30px !important; line-height: 30px !important; padding-top:34px !important }
                .std { font-size: 18px !important; line-height: 23px !important; }
                
@@ -142,14 +165,17 @@
                     margin: 0 0 10px 0;
                }
                .cTxt { text-align: center !important; }
+
                .tPad-0 { padding-top: 0 !important; }
                .rPad-0 { padding-right: 0 !important; }
                .lPad-0 { padding-left: 0 !important; }
                .bPad-30 { padding-bottom: 30px !important; }
+
                .star a { font-size: 40px !important; }
           }
           </style>
-          
+
+          <!--dark mode styles-->
           <style>
           @media (prefers-color-scheme: dark) {
                /* Shows Dark Mode-Only Content, Like Images */
@@ -164,12 +190,15 @@
                     margin-top: 0px !important;
                     visibility: inherit !important;
                }
+
                /* Hides Light Mode-Only Content, Like Images */
                .light-img { display: none; display: none !important; }
+
                /* Custom Dark Mode Background Color */
                .darkmode { background-color: #100E11 !important; }
                .darkmode2 { background-color: #020203 !important; }
                .darkmode3 { background-color: #000000 !important; }
+
                /* Custom Dark Mode Font Colors */
                h1, h3, p, span, a, ul, li { color: #ffffff !important; }
                h2, h2 { color: #ffffff !important; }
@@ -181,6 +210,7 @@
                .footer a.link { color: #ffffff !important; }
                .cta span { color:#000000 !important }
           }
+
           /* Copy dark mode styles for android support */
           /* Shows Dark Mode-Only Content, Like Images */
           [data-ogsc] .dark-img {
@@ -194,25 +224,30 @@
                margin-top: 0px !important;
                visibility: inherit !important;
           }
+
           /* Hides Light Mode-Only Content, Like Images */
           [data-ogsc] .light-img {
                display: none;
                display: none !important;
           }
+
           /* Custom Dark Mode Background Color */
           [data-ogsc] .darkmode { background-color: #100E11 !important; }
           [data-ogsc] .darkmode2 { background-color: #020203 !important; }
           [data-ogsc] .darkmode3 { background-color: #222023 !important; }
+
           /* Custom Dark Mode Font Colors */
           [data-ogsc] h1, [data-ogsc] h3, [data-ogsc] p, [data-ogsc] span, [data-ogsc] ul, [data-ogsc] li, [data-ogsc] a { color: #fdfdfd !important; }
           [data-ogsc] h2, [data-ogsc] h2 a { color: #C7A8D9 !important; }
           [data-ogsc] .white { color: #fdfdfd !important; }
+
           /* Custom Dark Mode Text Link Color */
           [data-ogsc] .link { color: #C7A8D9 !important; }
           [data-ogsc] .footer a.link { color: #fdfdfd !important; }
           [data-ogsc] .cta { color: #000000 !important; }
           </style>
-          
+
+          <!--correct superscripts in Outlook-->
           <!--[if (gte mso 9)|(IE)]>
           <style>
           sup{font-size:100% !important;}
@@ -221,27 +256,29 @@
           <title></title>
      
 </head>
+
     <body id="body" class="darkmode body body-fix">
         <div role="article" aria-roledescription="email" aria-label="Email from KinCare" xml:lang="en" lang="en">
-        
+        <!--start of email-->
             <table class="darkmode" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%; background: #ebebeb;">
-                
+                <!--main content area-->
                 <tr>
                     <td class="tPad-0" align="center" valign="top" style="padding-top: 32px;">
                         <table class="w100p darkmode2" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:600px;">
                             <tr>
-                                <td class="mob-td" align="center" valign="top" style="padding: 24px 0 0px 0px ;text-align: right;"><p style="font-family: helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; font-weight: 400; color: #8B8B8B;">Having trouble seeing this email? <a href="#LINK" style="color: #8B8B8B; text-decoration: underline;">View it in your browser</a>.</p></td>
+                                <td class="mob-td" align="center" valign="top" style="padding: 24px 0 0px 0px ;text-align: right;"><p style="font-family: helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; font-weight: 400; color: #8B8B8B;">Having trouble seeing this email? <a href="https://rebuilt-email.vercel.app/welcome.html" style="color: #8B8B8B; text-decoration: underline;">View it in your browser</a>.</p></td>
                             </tr>
                             <tr>
                                 <td align="left" valign="top" style="padding:20px 32px 20px 32px; background-color:#ffffff; border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom: 1px solid #ebebeb;" class="darkmode">
-                                
-                                
-                                    <a href="#LINK" target="_blank"><img class="light-img" src="/logo.png" width="103" height="24" alt="Rebuilt" style="color: #4a4a4a; font-family: helvetica, Arial, sans-serif; text-align:left; font-weight:bold; font-size:24px; line-height:28x; text-decoration: none; padding: 0;">
-                                        
+                                <!--Header with logo-->
+                                <!--light mode logo-->
+                                    <a href="https://rebuilt.eco" target="_blank"><img class="light-img" src="Logo.png" width="103" height="24" alt="Rebuilt"  style="color: #4a4a4a; font-family: helvetica, Arial, sans-serif; text-align:left; font-weight:bold; font-size:24px; line-height:28x; text-decoration: none; padding: 0;">
+                                        <!--dark mode logo-->
+
                                         <!--[if !mso]><! -->
                                         
                                         <div class="dark-img" style="display:none; overflow:hidden; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;" align="left">
-                                            <a href="#link" " target="_blank"><img src="/logo-white.png" width="103" height="24" alt="Rebuilt" style="color: #4a4a4a; font-family: helvetica, Arial, sans-serif; text-align:left; font-weight:bold; font-size:24px; line-height:28px; text-decoration: none; padding: 0;" border="0" /></a>
+                                            <a href="https://rebuilt.eco" target="_blank"><img src="Logo-white.png" width="103" height="24" alt="Rebuilt" style="color: #4a4a4a; font-family: helvetica, Arial, sans-serif; text-align:left; font-weight:bold; font-size:24px; line-height:28px; text-decoration: none; padding: 0;" border="0" /></a>
                                         </div>
                                         <!--<![endif]-->
                                     </a>
@@ -249,40 +286,48 @@
                             </tr>
                             <tr>
                                 <td align="left" class="mob-td" valign="top" style="background-color:#ffffff; padding:48px 0px 24px 32px;">
-                                    
-                                    <h1 style="font-family: helvetica, Arial, sans-serif; font-size: 48px; line-height: 48px; text-align: left; color: #000000; font-weight: 700; margin:0; padding:0">Built for tomorrow.<br />
-Starting today.</h1>
+                                    <!--H1 headline-->
+                                    <h1 style="font-family: helvetica, Arial, sans-serif; font-size: 48px; line-height: 48px; text-align: left; color: #000000; font-weight: 700; margin:0; padding:0">Built for tomorrow.<br />Starting today.</h1>
                                 </td>
                             </tr>
                             <tr>
-                                <td align="left" class="mob-td" valign="top" style="background-color:#ffffff; padding:24px 32px 24px 32px;"><img src="/header.png" class="imgFull"></td>
+                                <td align="left" class="mob-td" valign="top" style="background-color:#ffffff; padding:24px 32px 24px 32px;"><img src="header.png" class="imgFull"></td>
                             </tr>
                             <tr>
                                 <td align="left" class="mob-td" valign="top" style="background-color:#ffffff; padding:24px 30px 32px 30px;">
-                                    
-                                    <p class="std" style="font-family: helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; font-weight: 700; color: #333333;">Hi [name,fallback=there],</p>
+                                    <!--Intro copy-->
+                                    <p class="std" style="font-family: helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; font-weight: 700; color: #333333;">Hi [firstname,fallback=there],</p>
                                     <p class="std" style="font-family: helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; font-weight: 400; color: #333333;">
                                     <multiline>
-                                    <p class="std" style="font-family: helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; font-weight: 400; color: #333333;">Thanks for registering your interest to stay up-to-date with Rebuilt.</p>
+                                    <p class="std" style="font-family: helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; font-weight: 400; color: #333333;">Thanks for subscribing to stay up-to-date with Rebuilt.</p>
                                     <p class="std" style="font-family: helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; font-weight: 400; color: #333333;">The complete marketplace for the building, construction and fitout sector, Rebuilt makes it fast and easy to discover, compare and specify low-carbon products for your projects and the planet.</p>
-                                    
+                                    <p class="std" style="font-family: helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; font-weight: 400; color: #333333;">Plus, Rebuilt helps suppliers stay ahead of carbon emissions regulations by providing PCF verification within hours. Build consumer trust with accurate, ISO-compliant product carbon footprints.</p>
+                                    <p class="std" style="font-family: helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; font-weight: 700; color: #333333;">Why Rebuilt</p>
+                                    <ul class="std" style="font-family: helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; font-weight: 400; color: #333333;">
+                                        <li class="std">ISO-compliant PCF verification</li>
+                                        <li class="std">Advanced product comparison features</li>
+                                        <li class="std">Streamlined carbon data upload and export</li>
+                                        <li class="std">Efficient procurement with comprehensive product range</li>
+                                        <li class="std">Customer service support for product listing and optimisation</li>
+                                    </ul>
                                     <p class="std" style="font-family: helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; font-weight: 400; color: #333333;">Stay tuned for what's coming next.</p>
                                     <p class="std" style="font-family: helvetica, Arial, sans-serif; font-size: 16px; line-height: 18px; font-weight: 400; color: #333333;">The Rebuilt Team</p>
                                     </multiline>
-                                </p></td>
+                                </td>
                             </tr>
                             <tr>
-                                <td class="mob-td footer-link" align="center" valign="top" style="padding: 40px 32px 0 32px ;text-align: left;"><p style="font-family: helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; font-weight: 400; color: #8B8B8B;"><a href="https://rebuilt-web.vercel.app/privacy-policy" style="color:#8B8B8B;text-decoration: underline;">Privacy Policy</a><span style="margin:0 12px 0 12px;">|</span><span style="color:#8B8B8B;text-decoration: underline;"><unsubscribe>Unsubscribe</unsubscribe></span></p></td>
+                                <td class="mob-td" align="center" valign="top" style="padding: 40px 32px 0 32px ;text-align: left;"><p style="font-family: helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; font-weight: 400; color: #8B8B8B;"><a href="https://rebuilt-web.vercel.app/privacy-policy" style="color:#8B8B8B;text-decoration: underline;">Privacy Policy</a><span style="margin:0 12px 0 12px;">|</span><span style="color:#8B8B8B;text-decoration: underline;"><unsubscribe>Unsubscribe</unsubscribe></span></p></td>
                             </tr>
                             <tr>
                                 <td class="mob-td" align="left" valign="top" style="padding: 24px 32px 24px 32px ;text-align: left;">
-                                    
-                                    <a href="#LINK" target="_blank"><img class="light-img" src="/logo.png" .png" width="103" height="24" alt="Rebuilt" style="color: #4a4a4a; font-family: helvetica, Arial, sans-serif; text-align:left; font-weight:bold; font-size:24px; line-height:28x; text-decoration: none; padding: 0;">
-                                        
+                                    <!--light mode logo-->
+                                    <a href="https://rebuilt.eco" target="_blank"><img class="light-img" src="Logo.png".png" width="103" height="24" alt="Rebuilt"  style="color: #4a4a4a; font-family: helvetica, Arial, sans-serif; text-align:left; font-weight:bold; font-size:24px; line-height:28x; text-decoration: none; padding: 0;">
+                                        <!--dark mode logo-->
+
                                         <!--[if !mso]><! -->
                                         
                                         <div class="dark-img" style="display:none; overflow:hidden; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;" align="left">
-                                            <a href="#link" " target="_blank"><img src="/logo-white.png" width="103" height="24" alt="Rebuilt" style="color: #4a4a4a; font-family: helvetica, Arial, sans-serif; text-align:left; font-weight:bold; font-size:24px; line-height:28px; text-decoration: none; padding: 0;" border="0" /></a>
+                                            <a href="https://rebuilt.eco" target="_blank"><img src="Logo-white.png" width="103" height="24" alt="Rebuilt" style="color: #4a4a4a; font-family: helvetica, Arial, sans-serif; text-align:left; font-weight:bold; font-size:24px; line-height:28px; text-decoration: none; padding: 0;" border="0" /></a>
                                         </div>
                                         <!--<![endif]-->
                                     </a>    
@@ -298,6 +343,6 @@ Starting today.</h1>
                 </tr>
             </table>
         </div>
-        
+        <!--analytics go below here-->
     </body>
 </html>
